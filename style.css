@@ -1,0 +1,78 @@
+body {
+    font-family: Inter, Arial, sans-serif;
+    background: #eef1ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    background: white;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    color: #003366;
+}
+
+.btn-small {
+    padding: 8px;
+    width: 180px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-small:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.input-grp {
+    margin: 10px auto;
+    width: 350px;
+    text-align: left;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-box {
+    background: #57c5f0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#studentPage {
+    display: none;
+    background: white;
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #003366;
+}
